@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 #Remove deleted files
 alias gitrd="git ls-files -d | xargs git rm"
@@ -21,3 +21,4 @@ alias gco='git checkout'
 #Revert a file
 #git reset $file #unstage
 #git checkout $file #restore
+
